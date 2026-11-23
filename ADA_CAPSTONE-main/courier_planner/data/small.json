@@ -1,0 +1,117 @@
+{
+  "vehicle_capacity": 25,
+  "parcels": [
+    {
+      "id": 1,
+      "weight": 2,
+      "value": 6,
+      "deadline": 5,
+      "dest_node": 2
+    },
+    {
+      "id": 2,
+      "weight": 4,
+      "value": 13,
+      "deadline": 2,
+      "dest_node": 6
+    },
+    {
+      "id": 3,
+      "weight": 9,
+      "value": 10,
+      "deadline": 10,
+      "dest_node": 4
+    },
+    {
+      "id": 4,
+      "weight": 1,
+      "value": 6,
+      "deadline": 2,
+      "dest_node": 2
+    },
+    {
+      "id": 5,
+      "weight": 4,
+      "value": 37,
+      "deadline": 10,
+      "dest_node": 1
+    },
+    {
+      "id": 6,
+      "weight": 9,
+      "value": 17,
+      "deadline": 9,
+      "dest_node": 4
+    },
+    {
+      "id": 7,
+      "weight": 4,
+      "value": 33,
+      "deadline": 10,
+      "dest_node": 3
+    },
+    {
+      "id": 8,
+      "weight": 1,
+      "value": 15,
+      "deadline": 7,
+      "dest_node": 3
+    },
+    {
+      "id": 9,
+      "weight": 5,
+      "value": 14,
+      "deadline": 4,
+      "dest_node": 7
+    },
+    {
+      "id": 10,
+      "weight": 6,
+      "value": 11,
+      "deadline": 2,
+      "dest_node": 4
+    }
+  ],
+  "graph": {
+    "0": {
+      "2": 25,
+      "4": 23,
+      "3": 20,
+      "1": 4,
+      "7": 19
+    },
+    "1": {
+      "0": 4,
+      "6": 13,
+      "4": 22
+    },
+    "2": {
+      "0": 25,
+      "6": 9,
+      "3": 12
+    },
+    "3": {
+      "0": 20,
+      "6": 16,
+      "2": 12
+    },
+    "4": {
+      "0": 23,
+      "5": 19,
+      "1": 22
+    },
+    "5": {
+      "4": 19,
+      "7": 3
+    },
+    "6": {
+      "2": 9,
+      "3": 16,
+      "1": 13
+    },
+    "7": {
+      "5": 3,
+      "0": 19
+    }
+  }
+}
